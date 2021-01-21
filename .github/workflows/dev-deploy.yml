@@ -46,6 +46,3 @@ jobs:
              -p ${{ secrets.DOCKER_PASS }}
       - name: Build Docker image
         run:docker build -t $REPO:latest -t $REPO:${GITHUB_SHA::8} .
-      - name: Publish Docker image
-        run: docker push $REPO
-        
