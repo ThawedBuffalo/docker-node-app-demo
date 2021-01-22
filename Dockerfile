@@ -16,6 +16,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-ENTRYPOINT ["ng", "start", "-H", "0.0.0.0"]
 
 CMD ["node", "server.js"]
