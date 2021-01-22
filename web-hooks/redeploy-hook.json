@@ -1,0 +1,9 @@
+[
+    {
+      "id": "re-deploy",
+      "execute-command": "/Users/jc/Documents/SW_DEV/Tutorials/webhook/redeploy.sh",
+      "command-working-directory": "/Users/jc/Documents/SW_DEV/Tutorials/webhook",
+      "response-message": "Redeploying API server."
+    }
+  ]
+  
